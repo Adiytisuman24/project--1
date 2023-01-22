@@ -34,3 +34,7 @@ Encryption: Use encryption to secure data in transit and at rest. MongoDB suppor
 Access control: Use role-based access control (RBAC) to restrict access to the database and limit the actions that users can perform.
 
 Auditing: Enable auditing to track and log all database activity, such as read and write operations.
+For testing the video part of ar download video from
+https://youtu.be/nNcNay4Bgic as this is a copied video to show ar we cannot download the video
+
+Because it violates the copying policy of the youtuber.so in all other cases plsss download the YouTube video to see the ar video in snaplensathon .

@@ -1,0 +1,12 @@
+////////This code uses the mongo_dart package to connect to a MongoDB database and provide the updateUser method that takes the email and data as input, then it updates the user document in the 'user' collection with the matching email address.
+
+You can then use the updateUser method to update data periodically. For example, you can use the Timer class to schedule a periodic task that calls the updateUser method and pass in the desired data.
+//////////
+
+final database = Database();
+database.connect();
+
+Timer.periodic(Duration(minutes: 15), (timer) {
+  // update data
+  database.updateUser('user@example.com', {'last_login': DateTime.now()});
+});

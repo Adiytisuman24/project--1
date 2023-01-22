@@ -13,6 +13,9 @@ to your AndroidManifest.xml file
 
 and this to your Info.plist file
 
+Code:
 
-<key>NSCameraUsageDescription</key>
-<string>This app needs access to the camera to function</string>
+
+
+         <key>NSCameraUsageDescription</key>
+          <string>This app needs access to the camera to function</string>
